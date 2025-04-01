@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "LedRegular";
+    src: url(../fonts/led-counter-7.regular.ttf);
+}
+
+*{
+    transition: all ease-in-out;
+}
 .main-sec{
     padding: 20px;
     display: flex;
@@ -10,6 +18,7 @@
     font-size: 200px;
     padding: 0;
     margin: 0;
+    font-family: "LedRegular", sans-serif;
 }
 .buttons{
     display: flex;
@@ -49,4 +58,8 @@
 .resetButton:hover{
     background-color: rgba(128, 128, 128, 0.733);
     cursor: pointer;
+}
+
+.negativeCount{
+    color: red;
 }
