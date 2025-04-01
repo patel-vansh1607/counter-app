@@ -17,6 +17,7 @@ const CounterApp = () => {
     }
     return(
         <div className="main-sec">
+            <h1>Counter Buttons</h1>
             <p>{count}</p>
             <div className="buttons">
                 <button onClick={incrementButton} className="incrementButton">+</button>
