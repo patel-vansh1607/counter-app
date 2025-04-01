@@ -2,9 +2,6 @@
 ---
 # 🚀 **Counter Display App**  
 > _A website where a counter is displayed and buttons of increment, decremement and reset are coded. Once a user presses the increment button, the counter increases by 1, vice versa to the decrement button. The reset buttons sets counter to 0_
-
-![Crazy Animation](https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif)
-
 ---
 
 ## 🔥 **Features**
@@ -18,10 +15,10 @@
 ## 📦 **Installation**
 ```bash
 # Clone the repo
- git clone https://github.com/your-username/project-name.git
+ git clone https://github.com/patel-vansh1607/counter-app
 
 # Navigate into the project
- cd project-name
+ cd counter-app
 
 # Install dependencies
  npm install
@@ -40,7 +37,7 @@
 ---
 
 ## 📸 **Screenshots**
-![UI Preview](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)
+![Preview](./src/images/project-demo.gif)
 
 ---
 
