@@ -1,7 +1,7 @@
 [![Project Banner](./src/images/counter-app-banner-01.png)](https://counter-app-two-lac.vercel.app/)
 ---
-# 🚀 **Project Name**  
-> _A mind-blowing project that redefines awesome!_
+# 🚀 **Counter Display App**  
+> _A website where a counter is displayed and buttons of increment, decremement and reset are coded. Once a user presses the increment button, the counter increases by 1, vice versa to the decrement button. The reset buttons sets counter to 0_
 
 ![Crazy Animation](https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif)
 
