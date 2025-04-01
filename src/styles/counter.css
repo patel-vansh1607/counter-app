@@ -23,6 +23,7 @@
 }
 .incrementButton:hover{
     background-color: rgb(3, 75, 3);
+    cursor: pointer;
 }
 .decrementButton{
     width: 200px;
@@ -34,6 +35,7 @@
 
 .decrementButton:hover{
     background-color: rgb(141, 5, 5);
+    cursor: pointer;
 }
 .resetButton{
     width: 200px;
@@ -41,4 +43,10 @@
     font-size: 60px;
     background-color: grey;
     border: none;
+
+}
+
+.resetButton:hover{
+    background-color: rgba(128, 128, 128, 0.733);
+    cursor: pointer;
 }
