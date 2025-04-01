@@ -16,30 +16,36 @@
 
 .main-sec p{
     font-size: 200px;
-    padding: 0;
+    padding: 5px, 5px, 5px, 5px;
     margin: 0;
     font-family: "LedRegular", sans-serif;
 }
 .buttons{
     display: flex;
+    gap: 20px;
 }
 .incrementButton{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     font-size: 100px;
     background-color: green;
     border: none;
+    border-radius: 50px;
+    color: white;
+
 }
 .incrementButton:hover{
     background-color: rgb(3, 75, 3);
     cursor: pointer;
 }
 .decrementButton{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     font-size: 100px;
     background-color: red;
     border: none;
+    border-radius: 50px;
+    color: white;
 }
 
 .decrementButton:hover{
@@ -47,11 +53,13 @@
     cursor: pointer;
 }
 .resetButton{
-    width: 200px;
-    height: 200px;
-    font-size: 60px;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    color: white;
     background-color: grey;
     border: none;
+    border-radius: 50px;
 
 }
 
