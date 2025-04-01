@@ -14,7 +14,19 @@
 .buttons{
     display: flex;
 }
-.incrementButton, .decrementButton, .resetButton{
+.incrementButton{
     width: 200px;
     height: 200px;
+    font-size: 100px;
+}
+
+.decrementButton{
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+}
+.resetButton{
+    width: 200px;
+    height: 200px;
+    font-size: 60px;
 }
