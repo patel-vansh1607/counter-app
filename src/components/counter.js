@@ -15,10 +15,11 @@ const CounterApp = () => {
     const resetButton = () => {
         setCounter(0)
     }
+    
     return(
         <div className="main-sec">
             <h1>Counter Buttons</h1>
-            <p>{count}</p>
+            <p className={count < 0 ? 'negativeCount' : ''}>{count}</p>
             <div className="buttons">
                 <button onClick={incrementButton} className="incrementButton">+</button>
                 <button onClick={decrementButton} className="decrementButton">-</button>
