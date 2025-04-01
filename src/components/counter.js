@@ -1,10 +1,14 @@
 import { useState } from "react"
 
 const CounterApp = () => {
-    const [count, setCounter] = useState("0")
+    const [count, setCounter] = useState(0)
 
     const incrementButton = () => {
         setCounter(count+1)
+    }
+
+    const decrementButton = () => {
+        setCounter(count-1)
     }
     return(
         <div>
