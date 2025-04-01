@@ -51,14 +51,7 @@ We welcome PRs! 🎉
 ---
 
 ## 🌟 **Show Your Support**
-If you love this project, ⭐ the repo and spread the word! 💖
-
-![Star Badge](https://img.shields.io/github/stars/your-username/project-name?style=social)
-
----
-
-## 📜 **License**
-MIT License © 2025 Your Name  
+If you love this project, ⭐ the repo and spread the word! 💖  
 
 ---
 
