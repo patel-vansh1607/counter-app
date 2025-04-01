@@ -63,3 +63,7 @@
 .negativeCount{
     color: red;
 }
+
+.positiveCount{
+    color: green;
+}
