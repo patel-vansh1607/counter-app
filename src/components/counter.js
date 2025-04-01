@@ -19,7 +19,7 @@ const CounterApp = () => {
     return(
         <div className="main-sec">
             <h1>Counter Buttons</h1>
-            <p className={count < 0 ? 'negativeCount' : ''(count > 0 ? 'positiveCount' : '')}>{count}</p>
+            <p className={count < 0 ? 'negativeCount' : (count > 0 ? 'positiveCount' : '')}>{count}</p>
             <div className="buttons">
                 <button onClick={incrementButton} className="incrementButton">+</button>
                 <button onClick={decrementButton} className="decrementButton">-</button>
