@@ -18,15 +18,23 @@
     width: 200px;
     height: 200px;
     font-size: 100px;
+    background-color: green;
+    border: none;
 }
-
+.incrementButton:hover{
+    background-color: rgb(3, 75, 3);
+}
 .decrementButton{
     width: 200px;
     height: 200px;
     font-size: 100px;
+    background-color: red;
+    border: none;
 }
 .resetButton{
     width: 200px;
     height: 200px;
     font-size: 60px;
+    background-color: grey;
+    border: none;
 }
