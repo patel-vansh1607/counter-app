@@ -10,12 +10,17 @@ const CounterApp = () => {
     const decrementButton = () => {
         setCounter(count-1)
     }
+
+    const resetButton = () => {
+        setCounter(0)
+    }
     return(
         <div>
             <p>{count}</p>
             <div className="buttons">
-                <button onClick={incrementButton}>+</button>
-                <button onClick={decrementButton}>-</button>
+                <button onClick={incrementButton} className="incrementButton">+</button>
+                <button onClick={decrementButton} className="decrementButton">-</button>
+                <button onClick={resetButton} className="resetButton">Reset</button>
             </div>
         </div>
     )
