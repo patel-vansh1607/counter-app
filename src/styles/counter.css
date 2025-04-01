@@ -31,6 +31,10 @@
     background-color: red;
     border: none;
 }
+
+.decrementButton:hover{
+    background-color: rgb(141, 5, 5);
+}
 .resetButton{
     width: 200px;
     height: 200px;
